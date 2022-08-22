@@ -1,0 +1,25 @@
+h1 {
+    color: goldenrod;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(https://media.istockphoto.com/vectors/black-jack-table-background-in-green-color-green-cloth-gambling-field-vector-id1308301349?k=20&m=1308301349&s=170667a&w=0&h=2pUMPXRZdQItUz34eTthqJJEm39wMaa9Tb6QvmyOip8=);
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button{
+    color : #016f32;
+    width: 150px;
+    background-color: goldenrod ;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+}
