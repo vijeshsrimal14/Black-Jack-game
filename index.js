@@ -1,6 +1,6 @@
 let firstCard = 10
 let secondCard = 4
-let sum = firstCard + secondCard
+let sum = newRandomCard()
 let hasBlackJack = false
 let isAlive = true
 let message = ""
@@ -26,8 +26,13 @@ function startGame(){
     }
     MessageEl.textContent = message
 }
+function newRandomCard() {
+    let x = math.floor( math.random()) * 13 + 1
+    return x
+}
 function newCard(){
-    let card = 7
+    let card = newRandomCard()
+    sum += card
     cards.push(card)
     startGame()
 }
