@@ -22,3 +22,6 @@ function startGame(){
     }
     MessageEl.textContent = message
 }
+function newCard(){
+    
+}
