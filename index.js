@@ -1,6 +1,6 @@
-let firstCard = 10
-let secondCard = 4
-let sum = newRandomCard()
+let firstCard = newRandomCard()
+let secondCard = newRandomCard()
+let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
 let message = ""
